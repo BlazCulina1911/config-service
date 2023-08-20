@@ -6,8 +6,10 @@ spring:
       server:
         git:
           uri: https://github.com/BlazCulina1911/external-config
+          default-label: master
           clone-on-start: true
           force-pull: true
+          timeout: 5
 
 server:
   port: 8888
