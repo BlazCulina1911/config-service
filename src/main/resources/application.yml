@@ -6,6 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/BlazCulina1911/external-config
+          clone-on-start: true
 
 server:
   port: 8888
