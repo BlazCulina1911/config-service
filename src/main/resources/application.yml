@@ -10,6 +10,7 @@ spring:
           clone-on-start: true
           force-pull: true
           timeout: 5
+          basedir: external-config
 
 server:
   port: 8888
